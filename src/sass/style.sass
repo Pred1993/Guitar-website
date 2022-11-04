@@ -2,7 +2,9 @@
 @import "resets.scss"
 *
   box-sizing: border-box
-$color-blue: #5290EA //создаём переменную
+$color-blue: #5290EA
+//создаём переменную
+$color-orange: #F28B64
 .container
   max-width: 1140px
   margin: 0 auto
@@ -18,8 +20,14 @@ $color-blue: #5290EA //создаём переменную
     justify-content: space-between
     height: 69px
     align-items: center
+
   &__logo
     width: 134px
+
+  &__content-container
+    position: relative
+    display: flex
+    flex-direction: row
 
 .nav-menu
   &__list
@@ -35,9 +43,11 @@ $color-blue: #5290EA //создаём переменную
 
 .left-wrapper
   position: relative
+
   img
     position: relative
-    z-index: 1 // не работает без позиционирования, поэтому добавили relative
+    z-index: 5
+  // не работает без позиционирования, поэтому добавили relative
   // меняем z-index чтобы парень на фото был выше нашего rectangle (по номиналу z-index=0)
   &__rectangle-blue
     position: absolute
@@ -49,6 +59,68 @@ $color-blue: #5290EA //создаём переменную
     border-radius: 100px
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
     transform: rotate(-64deg)
+    z-index: 2
 
+  &__rectangle-orange
+    position: absolute
+    width: 618.43px
+    height: 220px
+    left: -30px
+    top: 160px
+    background-color: $color-orange
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+    border-radius: 100px
+    transform: rotate(-50.81deg)
+    z-index: 3
 
+  &__rectangle-grey
+    position: absolute
+    width: 608.97px
+    height: 220px
+    left: 10px
+    top: 190px
+    background: #E2E2E2
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+    border-radius: 100px
+    transform: rotate(-36.15deg)
+    z-index: 1
 
+.right-wrapper
+  position: absolute
+  width: 372px
+  top: 150px
+  right: 76px
+
+  &__icons-box
+    margin-bottom: 1px
+    padding-left: 10px
+
+.icons
+  display: flex
+  flex-direction: row
+  //display: inline-flex заменяет два верхних свойства в данном случае
+  &__item
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 40px
+    height: 40px
+    border: 1px solid $color-blue
+    border-radius: 100px
+    font-size: 21px
+    margin-right: 17px
+
+    &:last-child
+      margin-right: 0px
+
+.title
+  font-size: 72px
+  position: relative
+
+  &__hr
+    width: 65px
+    position: absolute
+    bottom: 0px
+    margin: 0px
+    border: none
+    border-top: 1px solid black

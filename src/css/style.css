@@ -437,20 +437,20 @@ table {
   box-sizing: border-box;
 }
 
-/* line 6, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+/* line 8, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
 .container {
   max-width: 1140px;
   margin: 0 auto;
 }
 
-/* line 10, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+/* line 12, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
 .main-section {
   height: 800px;
   background-color: #F0F0F0;
   padding-top: 16px;
 }
 
-/* line 15, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+/* line 17, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
 .main-section__nav-container {
   display: flex;
   flex-direction: row;
@@ -459,40 +459,47 @@ table {
   align-items: center;
 }
 
-/* line 21, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+/* line 24, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
 .main-section__logo {
   width: 134px;
 }
 
-/* line 25, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+/* line 27, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+.main-section__content-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 33, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
 .nav-menu__list {
   display: flex;
   flex-direction: row;
 }
 
-/* line 29, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+/* line 37, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
 .nav-menu__list-item {
   margin-right: 64px;
   font-size: 18px;
 }
 
-/* line 33, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+/* line 41, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
 .nav-menu__list-item:last-child {
   margin-right: 0px;
 }
 
-/* line 36, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+/* line 44, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
 .left-wrapper {
   position: relative;
 }
 
-/* line 38, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+/* line 47, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
 .left-wrapper img {
   position: relative;
-  z-index: 1;
+  z-index: 5;
 }
 
-/* line 42, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+/* line 52, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
 .left-wrapper__rectangle-blue {
   position: absolute;
   top: 150px;
@@ -503,6 +510,89 @@ table {
   border-radius: 100px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   transform: rotate(-64deg);
+  z-index: 2;
+}
+
+/* line 64, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+.left-wrapper__rectangle-orange {
+  position: absolute;
+  width: 618.43px;
+  height: 220px;
+  left: -30px;
+  top: 160px;
+  background-color: #F28B64;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  transform: rotate(-50.81deg);
+  z-index: 3;
+}
+
+/* line 76, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+.left-wrapper__rectangle-grey {
+  position: absolute;
+  width: 608.97px;
+  height: 220px;
+  left: 10px;
+  top: 190px;
+  background: #E2E2E2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  transform: rotate(-36.15deg);
+  z-index: 1;
+}
+
+/* line 88, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+.right-wrapper {
+  position: absolute;
+  width: 372px;
+  top: 150px;
+  right: 76px;
+}
+
+/* line 94, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+.right-wrapper__icons-box {
+  margin-bottom: 1px;
+  padding-left: 10px;
+}
+
+/* line 98, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+.icons {
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 102, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+.icons__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #5290EA;
+  border-radius: 100px;
+  font-size: 21px;
+  margin-right: 17px;
+}
+
+/* line 113, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+.icons__item:last-child {
+  margin-right: 0px;
+}
+
+/* line 116, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+.title {
+  font-size: 72px;
+  position: relative;
+}
+
+/* line 120, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+.title__hr {
+  width: 65px;
+  position: absolute;
+  bottom: 0px;
+  margin: 0px;
+  border: none;
+  border-top: 1px solid black;
 }
 
 /*# sourceMappingURL=style.css.map */
