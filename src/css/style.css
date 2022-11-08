@@ -866,4 +866,24 @@ table {
   bottom: 75px;
 }
 
+/* line 301, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+.footer__img {
+  position: absolute;
+  left: -250px;
+  bottom: 0px;
+}
+
+/* line 305, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+.footer__container {
+  min-height: 272px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/* line 310, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+.footer__title {
+  margin-bottom: 20px;
+}
+
 /*# sourceMappingURL=style.css.map */
