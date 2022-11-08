@@ -200,14 +200,29 @@ $color-orange: #F28B64
   min-height: 700px
   &__container
     padding-top: 32px
+    position: relative
   &__title
     margin-bottom: 40px
   &__cards-box
     display: inline-flex
+    margin-bottom: 25px
   &__cards-item
     margin-right: 30px
     &:last-child
       margin-right: 0px
+  &__icons-box
+    display: flex
+    justify-content: space-evenly
+  &__first-elipse
+    position: absolute
+    top: 80px
+    right: -60px
+    z-index: -1
+  &__second-elipse
+    position: absolute
+    top: 364px
+    left: -60px
+    z-index: -1
 .cards-item
   position: relative
   width: 360px
@@ -233,3 +248,14 @@ $color-orange: #F28B64
 .cards-item_blue
   background-color: $color-blue
 
+.icons-item
+  display: inline-flex
+  align-items: center
+  &__img
+    margin-right: 20px
+    width: 80px
+    height: 80px
+  &__text
+    font-size: 18px
+    span
+      font-size: 48px
