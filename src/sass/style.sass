@@ -6,6 +6,7 @@ $color-blue: #5290EA
 //создаём переменную
 $color-orange: #F28B64
 .container
+  position: relative
   max-width: 1140px
   margin: 0 auto
 
@@ -259,3 +260,39 @@ $color-orange: #F28B64
     font-size: 18px
     span
       font-size: 48px
+
+.third-section
+  min-height: 640px
+  background-color: #F0F0F0
+  position: relative
+  z-index: 0
+  overflow: hidden
+  &__right-wrapper
+    max-width: 480px
+  &__container
+    display: flex
+    flex-direction: row
+    align-items: center
+    justify-content: space-between
+    padding-left: 167px
+    padding-top: 46px
+  &__right-title
+    margin-bottom: 20px
+  &__text
+    margin-bottom: 30px
+    font-size: 18px
+  &__first-elipse
+    position: absolute
+    top: 140px
+    left: 110px
+  &__figure
+    position: absolute
+    top: 249px
+    left: 15px
+  &__second-elipse
+    position: absolute
+    top: -120px
+    right: -120px
+
+.title__hr_top
+  bottom: 75px
