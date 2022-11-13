@@ -933,159 +933,259 @@ html {
   .left-wrapper img {
     width: 750px;
   }
-  /* line 375, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  /* line 376, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
   .left-wrapper__rectangle-blue {
     width: 500px;
     height: 200px;
   }
-  /* line 378, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  /* line 380, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
   .left-wrapper__rectangle-orange {
     width: 550px;
     height: 200px;
   }
-  /* line 381, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  /* line 384, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
   .left-wrapper__rectangle-grey {
     width: 500px;
     height: 200px;
   }
-  /* line 384, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  /* line 387, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
   .right-wrapper {
     right: 20px;
   }
-  /* line 386, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  /* line 389, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
   .main-section__first-elipse {
     right: 10px;
   }
-  /* line 388, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  /* line 391, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
   .main-section__second-elipse {
     top: 560px;
   }
-  /* line 390, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  /* line 393, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
   .cards-item {
     width: 300px;
     height: 300px;
     margin-right: 20px;
   }
-  /* line 394, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  /* line 397, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
   .cards-item__img {
     height: 270px;
   }
-  /* line 396, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  /* line 399, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
   .cards-item__text {
     font-size: 30px;
     top: 120px;
   }
-  /* line 399, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  /* line 402, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
   .icons-item__img {
     margin-right: 10px;
   }
-  /* line 401, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  /* line 404, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
   .second-section {
     min-height: 600px;
   }
-  /* line 403, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  /* line 406, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
   .third-section__container {
     padding-left: 40px;
   }
-  /* line 405, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  /* line 408, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
   .third-section__right-wrapper {
     max-width: 450px;
   }
 }
 
 @media (max-width: 991px) {
-  /* line 409, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  /* line 412, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
   .container {
     width: 720px;
   }
-  /* line 412, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  /* line 416, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
   .left-wrapper img {
     width: 550px;
   }
-  /* line 414, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  /* line 419, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
   .left-wrapper__rectangle-blue {
     width: 380px;
     height: 130px;
   }
-  /* line 417, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  /* line 423, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
   .left-wrapper__rectangle-orange {
     width: 410px;
     height: 130px;
   }
-  /* line 420, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  /* line 427, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
   .left-wrapper__rectangle-grey {
     width: 380px;
     height: 130px;
   }
-  /* line 423, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  /* line 430, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  .title {
+    font-size: 60px;
+  }
+  /* line 432, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
   .right-wrapper {
     width: 300px;
   }
-  /* line 425, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
-  .right-wrapper__title {
-    font-size: 60px;
-  }
-  /* line 427, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  /* line 435, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
   .right-wrapper__text {
     font-size: 14px;
   }
-  /* line 429, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  /* line 437, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
   .buttons__main-btn {
     font-size: 14px;
     margin-right: 10px;
     width: 160px;
   }
-  /* line 433, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  /* line 441, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
   .right-wrapper {
     top: 62px;
   }
-  /* line 435, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  /* line 444, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
   .right-wrapper__text {
     padding-bottom: 10px;
   }
-  /* line 437, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  /* line 446, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
   .main-section {
     min-height: 530px;
   }
-  /* line 439, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  /* line 449, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
   .main-section__first-elipse {
     top: 4px;
   }
-  /* line 441, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  /* line 452, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
   .main-section__second-elipse {
     top: 400px;
   }
-  /* line 443, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  /* line 454, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
   .elipse {
     width: 150px;
     height: 150px;
   }
-  /* line 446, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  /* line 458, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
   .elipse__subtract {
     width: 110px;
     height: 110px;
   }
-  /* line 449, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  /* line 462, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
   .elipse__subtract_big {
     width: 170px;
     height: 170px;
   }
-  /* line 452, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  /* line 465, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
   .elipse_big {
     width: 250px;
     height: 250px;
   }
+  /* line 468, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  .cards-item {
+    width: 220px;
+    height: 220px;
+    margin-right: 10px;
+  }
+  /* line 473, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  .cards-item__img {
+    height: 200px;
+  }
+  /* line 476, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  .cards-item__text {
+    font-size: 22px;
+    top: 90px;
+    right: -75px;
+  }
+  /* line 481, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  .icons-item__img {
+    width: 70px;
+  }
+  /* line 483, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  .icons-item__text {
+    font-size: 14px;
+  }
+  /* line 485, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  .icons-item__text span {
+    font-size: 30px;
+  }
+  /* line 487, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  .second-section {
+    min-height: 435px;
+  }
+  /* line 489, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  .second-section__container {
+    padding-top: 7px;
+  }
+  /* line 491, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  .second-section__title {
+    margin-bottom: 20px;
+  }
+  /* line 493, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  .second-section__first-elipse {
+    top: 18px;
+    right: -21px;
+  }
+  /* line 496, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  .second-section__second-elipse {
+    top: 271px;
+    left: -20px;
+  }
+  /* line 499, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  .second-section__cards-box {
+    margin-bottom: 10px;
+  }
+  /* line 502, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  .third-section {
+    min-height: 509px;
+  }
+  /* line 504, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  .third-section__right-title {
+    margin-bottom: 20px;
+  }
+  /* line 506, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  .third-section__container {
+    justify-content: flex-start;
+  }
+  /* line 508, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  .third-section__right-wrapper {
+    max-width: 620px;
+  }
+  /* line 510, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  .third-section__left-title {
+    display: none;
+  }
+  /* line 512, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  .third-section__text {
+    position: relative;
+    z-index: 3;
+  }
+  /* line 515, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  .third-section__hr_top {
+    bottom: 62px;
+  }
+  /* line 518, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  .right-wrapper__button {
+    position: relative;
+    z-index: 3;
+  }
+  /* line 523, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  .footer__title {
+    margin-bottom: 10px;
+  }
+  /* line 525, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  .footer__img {
+    width: 490px;
+  }
+  /* line 528, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  .title__hr_top {
+    bottom: 64px;
+  }
 }
 
 @media (max-width: 767px) {
-  /* line 457, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  /* line 533, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
   .container {
     width: 540px;
   }
 }
 
 @media (max-width: 575px) {
-  /* line 461, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
+  /* line 537, D:/Frontend-2021/verstka/project_2/src/sass/style.sass */
   .container {
     width: 100%;
   }
