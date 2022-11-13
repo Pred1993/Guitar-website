@@ -480,38 +480,51 @@ $color-orange: #F28B64
   .icons-item
     &__img
       width: 70px
+
     &__text
       font-size: 14px
+
       span
         font-size: 30px
   .second-section
     min-height: 435px
+
     &__container
       padding-top: 7px
+
     &__title
       margin-bottom: 20px
+
     &__first-elipse
       top: 18px
       right: -21px
+
     &__second-elipse
       top: 271px
       left: -20px
+
     &__cards-box
       margin-bottom: 10px
 
   .third-section
     min-height: 509px
+
     &__right-title
       margin-bottom: 20px
+
     &__container
       justify-content: flex-start
+
     &__right-wrapper
       max-width: 620px
+
     &__left-title
       display: none
+
     &__text
       position: relative
       z-index: 3
+
     &__hr_top
       bottom: 62px
   .right-wrapper
@@ -522,6 +535,7 @@ $color-orange: #F28B64
   .footer
     &__title
       margin-bottom: 10px
+
     &__img
       width: 490px
   .title
@@ -532,6 +546,60 @@ $color-orange: #F28B64
 @media (max-width: 767px)
   .container
     width: 540px
+
+  .nav-menu
+
+    position: fixed
+    top: 0px
+    right: -100%
+    height: 100vh
+    background: $color-blue
+    z-index: 20
+    width: 50%
+    transition: 1s all
+
+    &__list
+      flex-direction: column
+      justify-content: space-evenly
+      height: 100%
+      align-items: center
+
+    &__list-item
+      margin-right: 0
+      font-size: 20px
+
+  .hamburger
+    width: 30px
+    position: absolute
+    top: 40px
+    right: 30px
+    height: 14px
+
+    span
+      height: 2px
+      width: 100%
+      display: block
+      background: black
+      margin-bottom: 4px
+      transition: 1s all
+      // элемент будет в течение секунды переходить в крестик
+      &:last-child
+        margin-bottom: 0
+
+  .hamburger_active
+    span
+      margin-bottom: -2px
+
+      &:nth-child(1)
+        transform: translateY(3px) rotate(-45deg)
+
+      &:nth-child(2)
+        display: none
+
+      &:nth-child(3)
+        transform: translateY(3px) rotate(45deg)
+  .nav-menu_active
+    right: 0
 
 @media (max-width: 575px)
   .container
