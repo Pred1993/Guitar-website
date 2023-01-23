@@ -4,12 +4,14 @@
   box-sizing: border-box
 
 @font-face
+  font-display: swap
   font-family: "MontserratT"
   src: url("../fonts/Montserrat-Regular.ttf")
   font-style: normal
   font-weight: normal
 
 @font-face
+  font-display: swap
   font-family: "MontserratT"
   src: url("../fonts/Montserrat-SemiBold.ttf")
   font-style: normal
@@ -570,10 +572,11 @@ $color-orange: #F28B64
 
   .hamburger
     width: 30px
-    position: absolute
+    position: fixed
     top: 40px
     right: 30px
     height: 14px
+    z-index: 30
 
     span
       height: 2px
